@@ -46,7 +46,7 @@ class MyFrame1 ( wx.Frame ):
 	def __del__( self ):
 		pass
 	
-	
+
 	# Virtual event handlers, overide them in your derived class
 	def btn_submit( self, event ):
 		event.Skip()
